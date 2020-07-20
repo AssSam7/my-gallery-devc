@@ -6,4 +6,8 @@ My gallery template is a part of **Responsive web developer** road map of [Dev c
 https://awesome-bardeen-771a4c.netlify.app/
 
 ## 🔒 [Problem]
-<img src="images/readme-challenge-desktop.PNG">
+<p align="center">
+  <img src="/img/readme-challenge-desktop.PNG">
+  <img src="/img/readme-challenge-mobile.PNG">
+</p>
+
