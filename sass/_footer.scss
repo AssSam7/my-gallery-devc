@@ -1,0 +1,27 @@
+.footer {
+  justify-self: center;
+  align-self: end;
+
+  color: $color-secondary;
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 17px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 0.5rem;
+
+    &:hover {
+      border-bottom: 1px solid $color-secondary;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

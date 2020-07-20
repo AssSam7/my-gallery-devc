@@ -1,0 +1,78 @@
+/***** Variables *****/
+
+// Colors
+$color-primary: #4e5150;
+$color-secondary: #a9a9a9;
+$color-profile-desc-back: #e5e5e5;
+
+// Fonts
+$font-display: "Montserrat", sans-serif;
+
+// Break points
+$bp-tablet: 50em; // 800px
+$bp-mobile: 37.5em; // 600px
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // To make font-size = 10px
+
+  @media only screen and (max-width: $bp-tablet) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background: #fff;
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+  @media only screen and (max-width: $bp-mobile) {
+    min-height: 100vh;
+  }
+}
+
+.container {
+  max-width: 100rem;
+  margin: 4rem auto;
+
+  display: grid;
+  grid-template-rows: min-content min-content 10vh;
+
+  @media only screen and (max-width: $bp-tablet) {
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
+    margin-bottom: 0;
+    grid-template-rows: min-content min-content 6vh;
+    min-height: 100%;
+  }
+}
+
+.heading-2 {
+  color: $color-primary;
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 29px;
+
+  @media only screen and (max-width: $bp-tablet) {
+    font-size: 1.8rem;
+  }
+}
+
+.heading-4 {
+  color: $color-secondary;
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 17px;
+}
