@@ -7,7 +7,7 @@ https://awesome-bardeen-771a4c.netlify.app/
 
 ## 🔒 [Problem]
 <p align="center">
-  <img src="/img/readme-challenge-desktop.PNG">
-  <img src="/img/readme-challenge-mobile.PNG">
+  <img src="/img/readme-challenge-desktop.PNG" width="300" />
+  <img src="/img/readme-challenge-mobile.PNG" width="300" />
 </p>
 
